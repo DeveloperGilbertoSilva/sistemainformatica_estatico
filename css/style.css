@@ -15,33 +15,41 @@ html,body{height: 100%;}
 /*===========HEADER===========*/
 .header{
 	height: auto;
-	background: red;
+	background: white;
 }
 
 .button_menu{
 	display: block;
 	float: left;
-	width: 40px;
-	height: 40px;
-	top: 5px;
+	width: 35px;
+	height: 35px;
+	top: 7px;
 	left: 10px;
-	border-radius: 40px;
+	border-radius: 35px;
 	border: 2px solid white;
 	cursor: pointer;
 	background: none;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: white;
 }
 
 .bar_menu{display: none;}
 
 .logo{
-	float: left;
-	width: 250px;
-	height: auto;
+	position: relative;
+	width: 230px;
+	height: 105px;
 	padding: 10px;
-	border-radius: 0px 100px 0px 0px;
+	z-index: 1;
+	border-radius: 0px 0px 80px 0px;
+	box-shadow: 1px 1px 5px #666;
 	background: white;
+}
+.logo_img{
+	width: 100%;
+	height: 100%;
+	background: url("../img/logo.png");
+	background-repeat: no-repeat;
 }
 
 .container_menu{
@@ -65,8 +73,9 @@ html,body{height: 100%;}
 .contate-nos{
 	width: 100%;
 	min-height: 35px;
-	max-height: 110px;
-	padding: 15px;
+	max-height: 150px;
+	margin-top: 20px;
+	padding: 20px;
 	background: #252422;
 	text-align: center;
 	font-family: "Lato";
@@ -77,7 +86,7 @@ html,body{height: 100%;}
 	float: left;
 	width: 25px;
 	height: 25px;
-	padding: 5px 0px;
+	padding: 6px 0px;
 	border-radius: 25px;
 	background: white;
 	text-align: center;
@@ -89,41 +98,131 @@ html,body{height: 100%;}
 	min-width: 100px;
 	max-width: 270px;
 	height: auto;
-	margin-top: 10px;
+	margin-top: 20px;
 	text-align: left;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 .container_servico{
 	min-width: 200px;
 	max-width: 750px;
 	height: auto;
 	margin: 20px auto 20px auto;
-	border: 1px solid red; 
+	padding: 10px;
+	font-family: "Lato";
 }
 
 .title_servico{
 	width: 100%;
-	height: 40px;
+	height: auto;
 	margin-bottom: 20px;
-	background: brown;
+	text-align: center;
 }
+.title_servico h2{font-weight: bold;}
 
 .servico{
 	display: block;
 	width: 200px;
-	height: 200px;
-	margin: auto auto 10px auto;
-	background: brown;
+	max-height: 250px;
+	margin: auto auto 40px auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px #ccc;
+	background: white;
+	font-family: "Lato";
+}
+.servico .icon{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	border-radius: 60px;
+	border: 2px solid #ccc;
+}
+
+#servico_1 .icon{
+	background: url("../img/cabeamento.jpg");
+}
+#servico_2 .icon{
+	background: url("../img/governanca.jpg");
+}
+#servico_3 .icon{
+	background: url("../img/assistencia_tecnica.jpg");
+}
+#servico_4 .icon{
+	background: url("../img/atendimento.jpeg");
+}
+
+.servico .descricao{
+	width: 200px;
+	height: 160px;
+	background: none;
+}
+
+.servico .descricao p{
+	position: absolute;
+	width: 200px;
+	padding: 5px;
+	text-align: center;
 }
 
 /*===========FOOTER===========*/
 .footer{
-	height: 200px;
-	margin-top: 5%;
-	background: yellow;
+	height: auto;
+	margin-top: 2%;
+	padding: 10px;
+	background: none;
+	font-family: "Lato";
+}
+
+
+.content_footer{
+	min-width: 200px;
+	max-width: 930px;
+	height: auto;
+	margin: 0 auto;
+	background: none;
+}
+
+.footer_col_1,.footer_col_2{
+	display: block;
+	min-width: 200px;
+	max-width: 600px;
+	min-height: 100px;
+	max-height: 400px;
+	margin: 0 auto;
+}
+.footer_col_1{background: none;}
+
+.footer_col_1 i,.footer_col_2 i{font-size: 2em;}
+.footer_col_1 span, .footer_col_2 span{font-size: 1.2em;}
+
+.footer_col_2{background: none;}
+
+.footer_map{
+	position: relative;
+	min-width: 200px;
+	max-width: 600px;
+	height: 250px;
+	margin: 20px auto auto auto;
+	overflow: hidden;
+	background: #ccc;
+}
+
+
+.copyright{
+	width: 100%;
+	height: 30px;
+	margin-top: 2%;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 0.8em;
 }
 
 /*===========BREACKPOINTS===========*/
+@media screen and (min-width: 320px){
+	.e-mail, .facebook{
+		font-size: 0.9em;
+	}
+}
+
 @media screen and (min-width: 768px){
 	.button_menu{display: none;}
 
@@ -175,6 +274,10 @@ html,body{height: 100%;}
 		text-decoration: none;
 		color: white;}
 
+	.logo{
+		position: absolute;
+		float: left;
+	}
 
 	.container_slider{
 		display: block;
@@ -186,6 +289,11 @@ html,body{height: 100%;}
 		background: #ccc;
 	}
 
+	.contate-nos{
+		margin-top: 0px;
+		padding: 15px;
+	}
+
 	.e-mail, .facebook{
 		display: inline-block;
 		max-width: 300px;
@@ -194,27 +302,48 @@ html,body{height: 100%;}
 		font-size: 1em;
 	}
 
+	.title_servico{text-align: left;}
+
+	.copyright{font-size: 1em;}
+
 }
 
 @media screen and (min-width: 996px){
 	.container_servico{
-		max-width: 888px;
+		max-width: 795px;
 	}
 	.servico{
 		display: inline-block;
-		width: 150px;
+		width: 160px;
 		margin: auto 30px 0px auto;
 	}
 	.servico:nth-child(6){margin-right: 0px;}
+	.servico .descricao{width: 160px;}
+	.servico .descricao p{width: 160px;}
+
+	.footer_col_1{float: left;}
+	.footer_col_2{float: right;}
+
+	.footer_map{	
+		float: left;
+		width: 500px;
+		left: 50%;
+		margin-left: -250px;
+		margin-top: 60px;
+	}
 }
+
 @media screen and (min-width: 1024px) and (min-height: 1024px){
 	.servico{
 		display: block;
 		width: 250px;
-		margin: auto auto 10px auto;
 	}
 	.servico:nth-child(6){margin-right: auto;}
+	.servico .descricao{width: 250px;}
+	.servico .descricao p{width: 250px;}
+	
 }
+
 @media screen and (min-width: 1900px) and (min-height: 1024px){
 	.container_servico{
 		max-width: 888px;
@@ -225,4 +354,6 @@ html,body{height: 100%;}
 		margin: auto 30px 0px auto;
 	}
 	.servico:nth-child(6){margin-right: 0px;}
+	.servico .descricao{width: 250px;}
+	.servico .descricao p{width: 250px;}
 }
