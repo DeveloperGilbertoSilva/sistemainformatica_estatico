@@ -1,0 +1,76 @@
+#section_empresa{
+	border: 1px solid black;
+	background: white;}
+
+.content_empresa{
+	min-width: 200px;
+	max-width: 1000px;
+	height: auto;
+	margin: 90px auto auto auto;
+	background: grey;}
+
+.title_content_empresa{
+	width: 100%;
+	min-height: 50px;
+	padding: 5px;
+	background: #101d42;}
+
+.menu_content_empresa{
+	width: 100%;
+	height: auto;
+	background: yellow;}
+.menu_content_empresa ul{
+	width: 100%;
+	height: auto;}
+.menu_content_empresa ul li{
+	display: block;
+	width: 100px;
+	height: 70px;
+	margin: auto auto 20px auto;
+	background: brown;}
+
+.content_tema_empresa{
+	display: none;
+	width: 100%;
+	min-height: auto;
+	background: grey;
+	text-align: center;
+	font-family: "Lato";}
+
+.bloco_content_empresa{
+	display: none;
+	min-width: 200px;
+	max-width: 900px;
+	min-height: 300px;
+	margin: 0 auto;	
+	background: purple;}
+
+#bloco_historico{display: none; background: red;}
+#bloco_visao{display: none; background: yellow;}
+#bloco_missao{display: none; background: grey;}
+#bloco_valores{display: none; background: black;}
+#bloco_equipe{display: none; background: green;}
+
+
+/*========================================BREACKPOINTS========================================*/
+
+/*===============768px===============*/
+@media screen and (min-width: 768px){
+	.content_empresa{
+		margin-top: 120px;}
+	
+	.menu_content_empresa ul{
+		width: 577px;
+		height: 70px;
+		margin: 0 auto;
+		background: green;}		
+	.menu_content_empresa ul li{
+		display: inline-block;
+		margin: auto 15px auto auto;
+	}
+	.menu_content_empresa ul li:nth-child(5){margin-right: 0px;}
+
+	.content_tema_empresa{display: block;}
+
+	#bloco_historico{display: block;}
+}

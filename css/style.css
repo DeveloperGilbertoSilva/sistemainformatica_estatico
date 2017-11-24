@@ -3,6 +3,8 @@
 
 html,body{height: 100%;}
 
+.container-fluid{height: 100%;}
+
 .position{position: relative;}
 
 .button{
@@ -56,6 +58,16 @@ html,body{height: 100%;}
 
 /*========================================SECTION========================================*/
 .section{height: auto;}
+.title_section{
+	height: 50px;
+	padding: 8px 0px;
+	border-top: 2px solid white;
+	background: #252422;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 1.6em;
+	color: white;
+}
 
 /*========================================FOOTER========================================*/
 .footer{
@@ -75,6 +87,11 @@ html,body{height: 100%;}
 	font-size: 0.8em;}
 
 /*========================================BREACKPOINTS========================================*/
+
+/*===============160px===============*/
+@media screen and (min-width: 160px){
+	.title_section{margin-top: 10px; background: black;}
+}
 
 /*===============768px===============*/
 @media screen and (min-width: 768px){
@@ -124,6 +141,8 @@ html,body{height: 100%;}
 	.logo{
 		position: absolute;
 		float: left;}
+
+	.title_section{margin-top: 0px;}	
 
 	.copyright{font-size: 1em;}
 }
