@@ -54,97 +54,8 @@ html,body{height: 100%;}
 	height: 50px;
 	background: #101d42;}
 
-
-
 /*========================================SECTION========================================*/
-.section{
-	height: auto;
-	border: 1px solid;
-	border-color: transparent transparent #ccc transparent;}
-
-.container_slider{display: none;}
-.container_slider img{
-	width: 100%;
-	height: auto;}
-
-.contate-nos{
-	width: 100%;
-	min-height: 35px;
-	max-height: 150px;
-	margin-top: 20px;
-	padding: 20px;
-	background: #252422;
-	text-align: center;
-	font-family: "Lato";
-	font-size: 1.1em;
-	color: white;}
-.contate-nos i{
-	float: left;
-	width: 25px;
-	height: 25px;
-	padding: 6px 0px;
-	border-radius: 25px;
-	background: white;
-	text-align: center;
-	color: #252422;}
-
-.e-mail,.facebook{
-	display: block;
-	min-width: 100px;
-	max-width: 270px;
-	height: auto;
-	margin-top: 20px;
-	text-align: left;
-	font-size: 0.8em;}
-
-.container_servico{
-	min-width: 200px;
-	max-width: 750px;
-	height: auto;
-	margin: 20px auto 20px auto;
-	padding: 10px;
-	font-family: "Lato";}
-
-.title_servico{
-	width: 100%;
-	height: auto;
-	margin-bottom: 20px;
-	text-align: center;}
-.title_servico h2{font-weight: bold;}
-
-.servico{
-	display: block;
-	width: 200px;
-	max-height: 250px;
-	margin: auto auto 40px auto;
-	border-radius: 5px;
-	box-shadow: 2px 2px 3px #ccc;
-	background: white;
-	font-family: "Lato";}
-.servico .icon{
-	width: 60px;
-	height: 60px;
-	margin: 0 auto;
-	border-radius: 60px;
-	border: 2px solid #ccc;}
-
-#servico_1 .icon{background: url("../img/cabeamento.jpg");}
-#servico_2 .icon{background: url("../img/governanca.jpg");}
-#servico_3 .icon{background: url("../img/assistencia_tecnica.jpg");}
-#servico_4 .icon{background: url("../img/atendimento.jpeg");}
-
-.servico .descricao{
-	width: 200px;
-	height: 160px;
-	background: none;}
-
-.servico .descricao p{
-	position: absolute;
-	width: 200px;
-	padding: 5px;
-	text-align: center;}
-
-
+.section{height: auto;}
 
 /*========================================FOOTER========================================*/
 .footer{
@@ -152,35 +63,8 @@ html,body{height: 100%;}
 	margin-top: 2%;
 	padding: 10px;
 	background: none;
-	font-family: "Lato";}
-
-
-.content_footer{
-	min-width: 200px;
-	max-width: 930px;
-	height: auto;
-	margin: 0 auto;
-	background: none;}
-
-.footer_col_1,.footer_col_2{
-	display: block;
-	min-width: 200px;
-	max-width: 600px;
-	min-height: 100px;
-	max-height: 400px;
-	margin: 0 auto;}
-.footer_col_1 i,.footer_col_2 i{font-size: 2em;}
-.footer_col_1 span, .footer_col_2 span{font-size: 1.2em;}
-.footer_map{
-	position: relative;
-	min-width: 200px;
-	max-width: 600px;
-	height: 250px;
-	margin: 20px auto auto auto;
-	overflow: hidden;
-	background: #ccc;}
-
-
+	font-family: "Lato";
+	text-decoration: none;}
 
 .copyright{
 	width: 100%;
@@ -190,16 +74,7 @@ html,body{height: 100%;}
 	font-family: "Lato";
 	font-size: 0.8em;}
 
-
-
 /*========================================BREACKPOINTS========================================*/
-
-/*===============320px===============*/
-
-@media screen and (min-width: 320px){
-	.e-mail, .facebook{font-size: 0.9em;}
-}
-
 
 /*===============768px===============*/
 @media screen and (min-width: 768px){
@@ -250,75 +125,8 @@ html,body{height: 100%;}
 		position: absolute;
 		float: left;}
 
-	.container_slider{
-		display: block;
-		width: 95%;
-		min-height: 0px;
-		max-height: 600px;
-		margin: 0px auto 20px auto;
-		overflow: hidden;
-		background: #ccc;}
-
-	.contate-nos{
-		margin-top: 0px;
-		padding: 15px;}
-
-	.e-mail, .facebook{
-		display: inline-block;
-		max-width: 300px;
-		margin-left: 5px;
-		margin-top: 0px;
-		font-size: 1em;}
-
-	.title_servico{text-align: left;}
-
 	.copyright{font-size: 1em;}
 }
 
 
-/*===============996px===============*/
-@media screen and (min-width: 996px){
-	.container_servico{max-width: 795px;}
-	
-	.servico{
-		display: inline-block;
-		width: 160px;
-		margin: auto 30px 0px auto;}
-	.servico:nth-child(6){margin-right: 0px;}
-	.servico .descricao{width: 160px;}
-	.servico .descricao p{width: 160px;}
 
-	.footer_col_1{float: left;}
-	.footer_col_2{float: right;}
-	.footer_map{	
-		float: left;
-		width: 500px;
-		left: 50%;
-		margin-left: -250px;
-		margin-top: 60px;}
-}
-
-
-/*===============1024px x 1024px===============*/
-@media screen and (min-width: 1024px) and (min-height: 1024px){
-	.servico{
-		display: block;
-		width: 250px;}
-	.servico:nth-child(6){margin-right: auto;}
-	.servico .descricao{width: 250px;}
-	.servico .descricao p{width: 250px;}
-}
-
-
-/*===============1900px x 1024px===============*/
-@media screen and (min-width: 1900px) and (min-height: 1024px){
-	.container_servico{max-width: 888px;}
-	
-	.servico{
-		display: inline-block;
-		width: 150px;
-		margin: auto 30px 0px auto;}
-	.servico:nth-child(6){margin-right: 0px;}
-	.servico .descricao{width: 250px;}
-	.servico .descricao p{width: 250px;}
-}
