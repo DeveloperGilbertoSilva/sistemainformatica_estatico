@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Sistema Informática - Serviços</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--=================CSS=================-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/servico.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css">
+
+
+	<!--=================JS=================-->	
+	<script src="js/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+
+	<div class="content_tema_servico_small">
+		<div id="bloco_cabeamento_small" class="bloco_content_servico_small">
+			<button class="button">
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+
+		<div id="bloco_governanca_small" class="bloco_content_servico_small">
+			<button class="button">
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+		
+		<div id="bloco_assistencia_small" class="bloco_content_servico_small">
+			<button class="button">
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+		
+		<div id="bloco_atendimento_small" class="bloco_content_servico_small">
+			<button class="button">
+				<i class="fa fa-close"></i>
+			</button>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+<!--======================================HEADER======================================-->
+			<header id="header_index" class="header col-xs-12 position">
+				<div class="row">
+					<div class="container_menu">
+						<button class="button_menu position button">
+							<i class="fa fa-bars"></i>
+						</button>
+						<div class="bar_menu">
+							<nav class="menu">
+								<ul type="none">
+									<li class="position" onclick="location='index.html'">
+										<i class="fa fa-home"></i>
+										<a href="#">Início</a>
+									</li>
+
+									<li class="position" onclick="location='empresa.html'">
+										<i class="fa fa-info"></i>
+										<a href="#">Sobre a empresa</a>
+									</li>
+									
+									<li class="position" onclick="location='cliente.html'">
+										<i class="fa fa-user"></i>
+										<a href="#">Clientes</a>
+									</li>
+									
+									<li class="position">
+										<i class="fa fa-users"></i>
+										<a href="#">Parceiros</a>
+									</li class="position">
+									
+									<li class="position">
+										<i class="fa fa-phone"></i>
+										<a href="#">Contato</a>
+									</li>
+								</ul>	
+							</nav>
+						</div>
+					</div>
+
+					<div class="logo">
+						<a href="index.html">
+							<div class="logo_img"></div>
+						</a>
+					</div>
+
+				</div>
+			</header>
+
+
+<!--======================================SECTION======================================-->
+			<section id="section_servico" class="section col-xs-12">
+				<div class="row">
+					<div class="title_section position">
+						Nossos serviços
+					</div>
+
+					<div class="content_servico_small position">
+						<div class="menu_content_servico_small">
+							<div id="menu_cabeamento_small" class="temas">
+								<div class="icon"></div>
+								<span>Cabeamento</span>
+							</div>
+
+							<div id="menu_governanca_small" class="temas">
+								<div class="icon"></div>
+								<span>Governança de TI</span>
+							</div>
+							
+							<div id="menu_assistencia_small" class="temas">
+								<div class="icon"></div>
+								<span>Assistência técnica</span>
+							</div>
+							
+							<div id="menu_atendimento_small" class="temas">
+								<div class="icon"></div>
+								<span>Formas de atendimento</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="content_servico">
+						<div class="header_content_servico">
+							<nav class="menu_content_servico">
+								<ul type="none">
+									<li id="menu_cabeamento" onclick="colorHistorico()">
+										<div class="icon"></div>
+										<span>Cabeamento</span>
+									</li>
+
+									<li id="menu_governanca" onclick="colorVisao()">
+										<div class="icon"></div>
+										<span>Governança de TI</span>
+									</li>
+									
+									<li id="menu_assistencia" onclick="colorMissao()">
+										<div class="icon"></div>
+										<span>Assitência técnica</span>
+									</li>
+									
+									<li id="menu_atendimento" onclick="colorValores()">
+										<div class="icon"></div>
+										<span>Formas de atendimento</span>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="content_tema_servico">
+							<div id="bloco_cabeamento" class="bloco_content_servico"></div>
+							<div id="bloco_governanca" class="bloco_content_servico"></div>
+							<div id="bloco_assistencia" class="bloco_content_servico"></div>
+							<div id="bloco_atendimento" class="bloco_content_servico"></div>
+						</div>
+					</div>
+				</div>
+
+<!--======================================FOOTER======================================-->
+			<footer id="footer_servico" class="footer col-xs-12">
+				
+			</footer>		
+		</div>
+	</div>
+
+
+	<div id="copyright_servico" class="copyright">
+		Copyright 2017 - Sistema Informática - Todos os direitos reservados
+	</div>
+	
+	<script src="js/script.js"></script>
+	<script src="js/servico.js"></script>
+</body>
+
+</html>

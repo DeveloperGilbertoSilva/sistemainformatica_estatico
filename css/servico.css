@@ -1,0 +1,151 @@
+.content_servico_small{
+	display: block;
+	min-width: 200px;
+	height: auto;
+	margin-top: 60px;
+	background: white;}
+
+.menu_content_servico_small{
+	min-width: 200px;
+	max-width: 250px;
+	height: auto;
+	margin: 0 auto;
+	background: none;}
+
+.menu_content_servico_small .temas{
+	width: 160px;
+	height: auto;
+	margin: auto auto 25% auto;
+	background: none;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 1.1em;}
+
+.icon{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	border: 3px solid;
+	border-color: white;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: 0.1s;
+	background: white;
+	text-align: center;
+	font-size: 2em;}
+
+#menu_cabeamento_small .icon{background: url("../img/cabeamento.jpg");}
+#menu_governanca_small .icon{background: url("../img/governanca.jpg");}
+#menu_assistencia_small .icon{background: url("../img/assistencia_tecnica.jpg");}
+#menu_atendimento_small .icon{background: url("../img/atendimento.jpeg");}
+
+
+.content_tema_servico_small{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: white;}
+.content_tema_servico_small button{
+	position: relative;
+	float: right;
+	width: 35px;
+	height: 35px;
+	top: 5px;
+	right: 5px;
+	border-radius: 35px;
+	background: red;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;}
+
+.bloco_content_servico_small{
+	display: none;
+	width: 100%;
+	height: 200px;
+	background: none;}
+
+#bloco_cabeamento_small{background: yellow;}
+#bloco_governanca_small{background: grey;}
+#bloco_assistencia_small{background: green;}
+#bloco_atendimento_small{background: black;}
+
+.content_servico{display: none;}
+
+/*========================================BREACKPOINTS========================================*/
+
+/*===============780px===============*/
+@media screen and (min-width: 780px){
+	.content_servico_small{display: none;}
+
+	.content_servico{
+		display: block;
+		min-width: 700px;
+		max-width: 910px;
+		height: auto;
+		margin: 100px auto auto auto;
+		background: none;}
+
+	.header_content_servico{
+		width: 100%;
+		min-height: 50px;
+		padding: 5px;
+		background: none;}
+
+	.menu_content_servico{
+		width: 100%;
+		height: auto;
+		background: none;}	
+	
+	.menu_content_servico ul{
+		width: 742px;
+		height: auto;
+		margin: 0 auto;
+		background: none;}
+
+	.menu_content_servico ul li{
+		display: inline-block;
+		width: 160px;
+		height: auto;
+		margin: auto 30px auto auto;
+		transition: 0.1s;
+		background: none;
+		text-align: center;
+		font-family: "Lato";
+		font-size: 1em;}
+	.menu_content_servico ul li .icon:hover {border-color: grey;}
+	.menu_content_servico ul li:nth-child(4){margin-right: 0px;}
+	.menu_content_servico ul li span{
+		float: left;
+		width: 160px;}
+
+	#menu_cabeamento .icon{background: url("../img/cabeamento.jpg");}
+	#menu_governanca .icon{background: url("../img/governanca.jpg");}
+	#menu_assistencia .icon{background: url("../img/assistencia_tecnica.jpg");}
+	#menu_atendimento .icon{background: url("../img/atendimento.jpeg");}
+
+	.content_tema_servico{
+		display: block;
+		width: 100%;
+		height: 300px;
+		background: none;
+		text-align: center;
+		font-family: "Lato";}
+
+	.bloco_content_servico{
+		display: none;
+		min-width: 200px;
+		max-width: 900px;
+		min-height: 300px;
+		margin: 0 auto;	
+		background: purple;}
+
+	#bloco_cabeamento{display: none; background: red;}
+	#bloco_governanca{display: none; background: yellow;}
+	#bloco_assistencia{display: none; background: grey;}
+	#bloco_atendimento{display: none; background: black;}
+
+	#bloco_cabeamento{display: block;}
+}
