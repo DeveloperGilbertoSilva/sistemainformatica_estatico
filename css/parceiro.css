@@ -1,0 +1,31 @@
+.content_parceiro{
+	min-width: 200px;
+	height: auto;
+	margin: 60px auto auto auto;
+	background: none;}
+
+.parceiro{
+	display: block;
+	width: 180px;
+	height: 200px;
+	margin: auto auto 30px auto;
+	background: none;}
+.parceiro .icon{
+	width: 90px;
+	height: 90px;
+	padding: 5px 0px;
+	border-radius: 90px;
+	box-shadow: 2px 2px 3px grey;
+	overflow: hidden;
+	background: white;}
+
+@media screen and (min-width: 768px){
+	.content_parceiro{max-width: 755px;}
+	.parceiro{
+		display: inline-block;
+		margin: auto auto 10px auto;}
+}
+
+@media screen and (min-width: 996px){
+	.content_parceiro{max-width: 955px;}
+}
