@@ -41,11 +41,11 @@ $(document).ready(function(){
 
 	$("#menu_historico").click(function(){
 
-		$("#menu_historico").css('color','grey');	
-		$("#menu_visao").css('color','#252422');
-		$("#menu_missao").css('color','#252422');
-		$("#menu_valores").css('color','#252422');
-		$("#menu_equipe").css('color','#252422');
+		$("#menu_historico").css('background','#252422');	
+		$("#menu_visao").css('background','grey');
+		$("#menu_missao").css('background','grey');
+		$("#menu_valores").css('background','grey');
+		$("#menu_equipe").css('background','grey');
 
 
 
@@ -58,11 +58,11 @@ $(document).ready(function(){
 
 	$("#menu_visao").click(function(){
 
-		$("#menu_historico").css('color','#252422');	
-		$("#menu_visao").css('color','grey');
-		$("#menu_missao").css('color','#252422');
-		$("#menu_valores").css('color','#252422');
-		$("#menu_equipe").css('color','#252422');
+		$("#menu_historico").css('background','grey');	
+		$("#menu_visao").css('background','#252422');
+		$("#menu_missao").css('background','grey');
+		$("#menu_valores").css('background','grey');
+		$("#menu_equipe").css('background','grey');
 
 		$("#bloco_historico").hide();
 		$("#bloco_visao").show();
@@ -73,11 +73,11 @@ $(document).ready(function(){
 
 	$("#menu_missao").click(function(){
 
-		$("#menu_historico").css('color','#252422');	
-		$("#menu_visao").css('color','#252422');
-		$("#menu_missao").css('color','grey');
-		$("#menu_valores").css('color','#252422');
-		$("#menu_equipe").css('color','#252422');
+		$("#menu_historico").css('background','grey');	
+		$("#menu_visao").css('background','grey');
+		$("#menu_missao").css('background','#252422');
+		$("#menu_valores").css('background','grey');
+		$("#menu_equipe").css('background','grey');
 
 		$("#bloco_historico").hide();
 		$("#bloco_visao").hide();
@@ -88,11 +88,11 @@ $(document).ready(function(){
 
 	$("#menu_valores").click(function(){
 
-		$("#menu_historico").css('color','#252422');	
-		$("#menu_visao").css('color','#252422');
-		$("#menu_missao").css('color','#252422');
-		$("#menu_valores").css('color','grey');
-		$("#menu_equipe").css('color','#252422');
+		$("#menu_historico").css('background','grey');	
+		$("#menu_visao").css('background','grey');
+		$("#menu_missao").css('background','grey');
+		$("#menu_valores").css('background','#252422');
+		$("#menu_equipe").css('background','grey');
 
 		$("#bloco_historico").hide();
 		$("#bloco_visao").hide();
@@ -103,11 +103,11 @@ $(document).ready(function(){
 
 	$("#menu_equipe").click(function(){
 
-		$("#menu_historico").css('color','#252422');	
-		$("#menu_visao").css('color','#252422');
-		$("#menu_missao").css('color','#252422');
-		$("#menu_valores").css('color','#252422');
-		$("#menu_equipe").css('color','grey');
+		$("#menu_historico").css('background','grey');	
+		$("#menu_visao").css('background','grey');
+		$("#menu_missao").css('background','grey');
+		$("#menu_valores").css('background','grey');
+		$("#menu_equipe").css('background','#252422');
 
 		$("#bloco_historico").hide();
 		$("#bloco_visao").hide();

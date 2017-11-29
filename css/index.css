@@ -1,11 +1,6 @@
-#section_index{
-	border: 1px solid;
-	border-color: transparent transparent #ccc transparent;}
+#section_index{border-bottom: 1px solid #ccc;}
 
-.container_slider{display: none;}
-.container_slider img{
-	width: 100%;
-	height: auto;}
+.cycle-slideshow{display: none;}
 
 .contate-nos{
 	width: 100%;
@@ -51,7 +46,6 @@
 	height: auto;
 	margin-bottom: 20px;
 	text-align: center;}
-.title_servico h2{font-weight: bold;}
 
 .servico{
 	display: block;
@@ -124,17 +118,38 @@
 
 /*===============768px===============*/
 @media screen and (min-width: 768px){
-	.container_slider{
-			display: block;
-			width: 95%;
-			min-height: 0px;
-			max-height: 600px;
-			margin: 0px auto 20px auto;
-			overflow: hidden;
-			background: #ccc;}
+	.cycle-slideshow{
+		display: block;
+		width: 100%;
+		min-height: 0px;
+		max-height: 600px;
+		margin: auto auto auto auto;
+		overflow: hidden;
+		z-index: 3;
+		background: #ccc;}
+	.cycle-slideshow img{
+		width: 100%;
+		height: auto;}
+
+	.cycle-pager{
+		position: absolute;
+		width: 100%;
+		bottom: 10px; 
+		z-index: 500;
+		overflow: hidden;
+		text-align: center;}
+	.cycle-pager span { 
+	    display: inline-block; 
+	    width: 16px; 
+	    height: 16px; 
+	    cursor: pointer; 
+	    font-family: arial; 
+	    font-size: 50px; 
+	    color: #ddd; }
+	.cycle-pager span.cycle-pager-active { color: #101d42;}
 
 	.contate-nos{
-		margin-top: 0px;
+		margin-top: 2px;
 		padding: 15px;}
 
 	.e-mail, .facebook{

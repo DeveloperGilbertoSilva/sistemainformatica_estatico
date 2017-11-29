@@ -20,13 +20,41 @@
 </head>
 
 <body>
+	<div class="container_menu_small">
+		<button class="button_close_menu button position">
+			<i class="fa fa-close"></i>
+		</button>
+		<center>
+			<nav class="menu_small">
+				<ul type="none">
+					<li>
+						<a href="empresa.html"><i class="fa fa-info"></i> Sobre a empresa</a>
+					</li>
+					<li>
+						<a href="servico.html"><i class="fa fa-cogs"></i> Serviços</a>
+					</li>
+					<li>
+						<a href="cliente.html"><i class="fa fa-user"></i>Clientes</a>
+					</li>
+					<li>
+						<a href="parceiro.html"><i class="fa fa-users"></i>Parceiros</a>
+					</li>
+					<li>
+						<a href="contato.html"><i class="fa fa-phone"></i>Contato</a>
+					</li>
+
+				</ul>
+			</nav>
+		</center>
+	</div>
+
 	<div class="container-fluid">
 		<div class="row">
 <!--======================================HEADER======================================-->
 			<header id="header_index" class="header col-xs-12 position">
 				<div class="row">
 					<div class="container_menu">
-						<button class="button_menu position button">
+						<button class="button_open_menu position button">
 							<i class="fa fa-bars"></i>
 						</button>
 						<div class="bar_menu">
@@ -34,27 +62,27 @@
 								<ul type="none">
 									<li class="position" onclick="location='empresa.html'">
 										<i class="fa fa-info"></i>
-										<a href="#">Sobre a empresa</a>
+										<a href="empresa.html">Sobre a empresa</a>
 									</li>
 
 									<li class="position" onclick="location='servico.html'">
 										<i class="fa fa-cogs"></i>
-										<a href="#">Serviços</a>
+										<a href="servico.html">Serviços</a>
 									</li>
 									
 									<li class="position" onclick="location='cliente.html'">
 										<i class="fa fa-user"></i>
-										<a href="#">Clientes</a>
+										<a href="cliente.html">Clientes</a>
 									</li>
 									
 									<li class="position" onclick="location='parceiro.html'">
 										<i class="fa fa-users"></i>
-										<a href="#">Parceiros</a>
+										<a href="parceiro.html">Parceiros</a>
 									</li class="position">
 									
 									<li class="position">
-										<i class="fa fa-phone"></i>
-										<a href="#">Contato</a>
+										<i class="fa fa-phone" onclick="location='contato.html'"></i>
+										<a href="contato.html">Contato</a>
 									</li>
 								</ul>	
 							</nav>
@@ -74,9 +102,12 @@
 <!--======================================SECTION======================================-->
 			<section id="section_index" class="section col-xs-12">
 				<div class="row">
-					<div class="container_slider">
+					<div class="cycle-slideshow">
 						<img src="img/slider2.jpg">
+						<img src="img/slider2.jpg">
+						<div class="cycle-pager"></div>
 					</div>
+					
 
 					<div class="contate-nos">
 						<center>
@@ -93,8 +124,8 @@
 					
 					<div class="container_servico">
 						<div class="title_servico">
-							<h2>Em busca de melhor atendê-lo, trabalhamos com as melhores e garantidas formas de serviços</h2>
-							<h4>Conheça os nossos serviços:</h4>
+							<h2>Em busca de melhor atendê-lo, trabalhamos com as melhores e garantidas formas de serviços</h2><br/>
+							<h4>Conheça os nossos serviços:</h4><br/>
 						</div>
 
 						<div id="servico_1" class="servico">
@@ -170,6 +201,8 @@
 		Copyright 2017 - Sistema Informática - Todos os direitos reservados
 	</div>
 	<script src="js/script.js"></script>
+	<script src="js/cycle2.js"></script>
+	<script src="js/index.js"></script>
 </body>
 
 </html>

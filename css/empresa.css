@@ -46,16 +46,18 @@
 .bloco_content_empresa_small{
 	display: none;
 	width: 100%;
-	height: 200px;
-	background: none;}
-
-#bloco_historico_small{background: yellow;}
-#bloco_visao_small{background: grey;}
-#bloco_missao_small{background: green;}
-#bloco_valores_small{background: black;}
-#bloco_equipe_small{background: orange;}
-
-
+	height: auto;
+	background: white;
+	font-family: "Lato";}
+.bloco_content_empresa_small h2{text-align: center;}
+.bloco_content_empresa_small p{
+	max-width: 750px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	background: none;
+	text-align: justify;
+	font-size: 1.2em;}
 
 #section_empresa{
 	background: white;}
@@ -76,7 +78,7 @@
 		min-width: 700px;
 		max-width: 910px;
 		height: auto;
-		margin: 100px auto auto auto;
+		margin: 50px auto auto auto;
 		background: none;}
 
 	.header_content_empresa{
@@ -91,36 +93,30 @@
 		background: none;}	
 	
 	.menu_content_empresa ul{
-		width: 571px;
+		width: 601px;
 		height: 70px;
 		margin: 0 auto;
-		background: none;}
+		background: white;}
 
 	.menu_content_empresa ul li{
 		display: inline-block;
-		width: 55px;
-		height: 70px;
-		margin: auto 70px auto auto;
+		width: 65px;
+		height: 60px;
+		margin: auto 65px auto auto;
+		padding: 5px;
+		border-radius: 10px;
 		cursor: pointer;
 		transition: 0.1s;
-		background: none;
+		background: grey;
 		text-align: center;
 		font-family: "Lato";
-		font-size: 1em;}
-	.menu_content_empresa ul li:hover{color: grey;}
+		font-size: 1em;
+		color: white;}
+	.menu_content_empresa ul li:hover{background: #252422;}
 
 	.menu_content_empresa ul li:nth-child(5){margin-right: 0px;}
 
 	.menu_content_empresa ul li i{
-		display: block;
-		position: relative;
-		width: 45px;
-		height: 45px;
-		border-radius: 45px;
-		left: 50%;
-		margin-left: -22.5px;
-		padding: 8px 0px;
-		background: white;
 		text-align: center;
 		font-size: 2em;}
 
@@ -135,16 +131,22 @@
 	.bloco_content_empresa{
 		display: none;
 		min-width: 200px;
-		max-width: 900px;
+		max-width: 950px;
 		min-height: 300px;
 		margin: 0 auto;	
-		background: purple;}
+		background: white;
+		font-family: "Lato";}
+	.bloco_content_empresa p{
+		max-width: 950px;
+		height: auto;
+		margin: 0 auto;
+		padding: 10px;
+		background: white;
+		text-align: justify;
+		font-size: 1.2em;
+	}
 
-	#bloco_historico{display: none; background: red;}
-	#bloco_visao{display: none; background: yellow;}
-	#bloco_missao{display: none; background: grey;}
-	#bloco_valores{display: none; background: black;}
-	#bloco_equipe{display: none; background: green;}	
+	
 
 	#bloco_historico{display: block;}
 

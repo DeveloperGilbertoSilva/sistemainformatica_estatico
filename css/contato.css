@@ -1,0 +1,38 @@
+.content_contato{
+	min-width: 200px;
+	max-width: 950px;
+	height: auto;
+	padding: 5px;
+	margin-top: 10px;
+	background: white;}
+
+.title_contato{
+	width: 100%;
+	height: auto;
+	padding: 30px 15px;
+	box-shadow: 3px 3px 3px #ccc;
+	background: white;
+	font-family: "Lato";
+	text-align: left;
+	color: #252422;}
+.title_contato i{font-size: 1.5em;}
+.title_contato span{color: grey;}
+
+.out_contato{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	padding: 10px;
+	background: white;
+	text-align: center;
+	font-family: "Lato";}
+.out_contato i{color: red;}
+
+.mapa{
+	min-width: 200px;
+	max-width: 600px;
+	height: 250px;
+	margin: 60px auto auto auto;
+	overflow: hidden;
+	background: #ccc;
+}

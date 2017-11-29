@@ -1,23 +1,23 @@
 $(document).ready(function(){
-	$("#menu_cabeamento_small .icon").click(function(){
+	$("#menu_cabeamento_small").click(function(){
 		$(".content_tema_servico_small").show();
 		$("#bloco_cabeamento_small").fadeIn();
 		$(".container-fluid").hide();
 		$(".copyright").hide();
 	});
-	$("#menu_governanca_small .icon").click(function(){
+	$("#menu_governanca_small").click(function(){
 		$(".content_tema_servico_small").show();
 		$("#bloco_governanca_small").fadeIn();
 		$(".container-fluid").hide();
 		$(".copyright").hide();
 	});
-	$("#menu_assistencia_small .icon").click(function(){
+	$("#menu_assistencia_small").click(function(){
 		$(".content_tema_servico_small").show();
 		$("#bloco_assistencia_small").fadeIn();
 		$(".container-fluid").hide();
 		$(".copyright").hide();
 	});
-	$("#menu_atendimento_small .icon").click(function(){
+	$("#menu_atendimento_small").click(function(){
 		$(".content_tema_servico_small").show();
 		$("#bloco_atendimento_small").fadeIn();
 		$(".container-fluid").hide();
@@ -32,16 +32,12 @@ $(document).ready(function(){
 	});
 
 
-	$("#menu_cabeamento .icon").click(function(){
+	$("#menu_cabeamento").click(function(){
 
-		$("#menu_cabeamento").css('color','grey');	
-		$("#menu_governanca").css('color','#252422');
-		$("#menu_assistencia").css('color','#252422');
-		$("#menu_atendimento").css('color','#252422');
-		$("#menu_cabeamento .icon").css('border-color','grey');
-		$("#menu_governanca .icon").css('border-color','white');
-		$("#menu_assistencia .icon").css('border-color','white');
-		$("#menu_atendimento .icon").css('border-color','white');
+		$("#menu_cabeamento").css('background','#252422');	
+		$("#menu_governanca").css('background','grey');
+		$("#menu_assistencia").css('background','grey');
+		$("#menu_atendimento").css('background','grey');
 
 		$("#bloco_cabeamento").show();
 		$("#bloco_governanca").hide();
@@ -49,16 +45,12 @@ $(document).ready(function(){
 		$("#bloco_atendimento").hide();
 	});
 
-	$("#menu_governanca .icon").click(function(){
+	$("#menu_governanca").click(function(){
 
-		$("#menu_cabeamento").css('color','#252422');	
-		$("#menu_governanca").css('color','grey');
-		$("#menu_assistencia").css('color','#252422');
-		$("#menu_atendimento").css('color','#252422');
-		$("#menu_cabeamento .icon").css('border-color','white');
-		$("#menu_governanca .icon").css('border-color','grey');
-		$("#menu_assistencia .icon").css('border-color','white');
-		$("#menu_atendimento .icon").css('border-color','white');
+		$("#menu_cabeamento").css('background','grey');	
+		$("#menu_governanca").css('background','#252422');
+		$("#menu_assistencia").css('background','grey');
+		$("#menu_atendimento").css('background','grey');
 
 		$("#bloco_cabeamento").hide();
 		$("#bloco_governanca").show();
@@ -66,16 +58,12 @@ $(document).ready(function(){
 		$("#bloco_atendimento").hide();
 	});
 
-	$("#menu_assistencia .icon").click(function(){
+	$("#menu_assistencia").click(function(){
 
-		$("#menu_cabeamento").css('color','#252422');	
-		$("#menu_governanca").css('color','#252422');
-		$("#menu_assistencia").css('color','grey');
-		$("#menu_atendimento").css('color','#252422');
-		$("#menu_cabeamento .icon").css('border-color','white');
-		$("#menu_governanca .icon").css('border-color','white');
-		$("#menu_assistencia .icon").css('border-color','grey');
-		$("#menu_atendimento .icon").css('border-color','white');
+		$("#menu_cabeamento").css('background','grey');	
+		$("#menu_governanca").css('background','grey');
+		$("#menu_assistencia").css('background','#252422');
+		$("#menu_atendimento").css('background','grey');
 
 		$("#bloco_cabeamento").hide();
 		$("#bloco_governanca").hide();
@@ -83,16 +71,12 @@ $(document).ready(function(){
 		$("#bloco_atendimento").hide();
 	});
 
-	$("#menu_atendimento .icon").click(function(){
+	$("#menu_atendimento").click(function(){
 
-		$("#menu_cabeamento").css('color','#252422');	
-		$("#menu_governanca").css('color','#252422');
-		$("#menu_assistencia").css('color','#252422');
-		$("#menu_atendimento").css('color','grey');
-		$("#menu_cabeamento .icon").css('border-color','white');
-		$("#menu_governanca .icon").css('border-color','white');
-		$("#menu_assistencia .icon").css('border-color','white');
-		$("#menu_atendimento .icon").css('border-color','grey');
+		$("#menu_cabeamento").css('background','grey');	
+		$("#menu_governanca").css('background','grey');
+		$("#menu_assistencia").css('background','grey');
+		$("#menu_atendimento").css('background','#252422');
 
 		$("#bloco_cabeamento").hide();
 		$("#bloco_governanca").hide();

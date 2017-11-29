@@ -2,7 +2,9 @@
 	min-width: 200px;
 	height: auto;
 	margin: 60px auto auto auto;
-	background: none;}
+	background: none;
+	font-family: "Lato";}
+.content_parceiro h2{font-weight: bold;}
 
 .parceiro{
 	display: block;

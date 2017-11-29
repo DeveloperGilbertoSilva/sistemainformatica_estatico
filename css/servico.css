@@ -13,13 +13,17 @@
 	background: none;}
 
 .menu_content_servico_small .temas{
-	width: 160px;
+	width: 140px;
 	height: auto;
 	margin: auto auto 25% auto;
-	background: none;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: grey;
 	text-align: center;
 	font-family: "Lato";
-	font-size: 1.1em;}
+	font-size: 1.1em;
+	color: white;}
 
 .icon{
 	display: block;
@@ -64,13 +68,21 @@
 .bloco_content_servico_small{
 	display: none;
 	width: 100%;
-	height: 200px;
-	background: none;}
+	min-height: 300px;
+	margin-bottom: 20px;
+	background: white;
+	text-align: center;
+	font-family: "Lato"; }
 
-#bloco_cabeamento_small{background: yellow;}
-#bloco_governanca_small{background: grey;}
-#bloco_assistencia_small{background: green;}
-#bloco_atendimento_small{background: black;}
+.bloco_content_servico_small p{
+	min-width: 200px;
+	max-width: 750px;
+	height: auto;
+	padding: 15px;
+	margin-bottom: 30px;
+	background: none;
+	text-align: justify;
+	font-size: 1.2em;}
 
 .content_servico{display: none;}
 
@@ -85,7 +97,7 @@
 		min-width: 700px;
 		max-width: 910px;
 		height: auto;
-		margin: 100px auto auto auto;
+		margin: 50px auto auto auto;
 		background: none;}
 
 	.header_content_servico{
@@ -111,12 +123,15 @@
 		height: auto;
 		margin: auto 30px auto auto;
 		transition: 0.1s;
-		background: none;
+		border-radius: 10px;
+		cursor: pointer;
+		background: grey;
 		text-align: center;
 		font-family: "Lato";
-		font-size: 1em;}
-	.menu_content_servico ul li .icon:hover {border-color: grey;}
+		font-size: 1em;
+		color: white;}
 	.menu_content_servico ul li:nth-child(4){margin-right: 0px;}
+	.menu_content_servico ul li:hover{background: #252422;}
 	.menu_content_servico ul li span{
 		float: left;
 		width: 160px;}
@@ -129,8 +144,8 @@
 	.content_tema_servico{
 		display: block;
 		width: 100%;
-		height: 300px;
-		background: none;
+		height: auto;
+		background: white;
 		text-align: center;
 		font-family: "Lato";}
 
@@ -138,14 +153,68 @@
 		display: none;
 		min-width: 200px;
 		max-width: 900px;
-		min-height: 300px;
+		height: auto;
 		margin: 0 auto;	
-		background: purple;}
+		background: white;}
+	.bloco_content_servico p{
+		max-width: 950px;
+		height: 600px;
+		margin: 0 auto;
+		padding: 15px 10px;
+		background: white;
+		font-size: 1.2em;
+		text-align: justify;
+	}
 
-	#bloco_cabeamento{display: none; background: red;}
-	#bloco_governanca{display: none; background: yellow;}
-	#bloco_assistencia{display: none; background: grey;}
-	#bloco_atendimento{display: none; background: black;}
+	#bloco_cabeamento{display: block; background: white;}
 
-	#bloco_cabeamento{display: block;}
+	.content_galeria_servico{
+		width: 100%;
+		height: auto;
+		background: white;}
+
+	.categoria_servico{
+		display: inline-block;
+		width: 85px;
+		height: 100px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 3px #ccc;
+		background: white;
+		color: white;}
+
+	#gal_cat5 a,#gal_cat6 a,#gal_elet a,#gal_infra a,#gal_optic a,#gal_tele a{
+		text-decoration: none;
+		color: #252422;}
+	#gal_cat5 a:hover{color: grey;}
+	#gal_cat6 a:hover{color: grey;}
+	#gal_elet a:hover{color: grey;}
+	#gal_infra a:hover{color: grey;}
+	#gal_optic a:hover{color: grey;}
+	#gal_tele a:hover{color: grey;}
+
+	.icon_galeria{
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+		margin: 0 auto;
+		background: white;}
+
+	#gal_cat5 .icon_galeria{
+		background: url("../img/servico/gal_cat5/gal_cat5_small.jpg");
+		background-size: cover;}
+	#gal_cat6 .icon_galeria{
+		background: url("../img/servico/gal_cat6/gal_cat6_small.jpg");
+		background-size: cover;}
+	#gal_elet .icon_galeria{
+		background: url("../img/servico/gal_elet/gal_elet_small.jpg");
+		background-size: cover;}
+	#gal_infra .icon_galeria{
+		background: url("../img/servico/gal_infra/gal_infra_small.jpg");
+		background-size: cover;}
+	#gal_optic .icon_galeria{
+		background: url("../img/servico/gal_optic/gal_optic_small.jpg");
+		background-size: cover;}
+	#gal_tele .icon_galeria{
+		background: url("../img/servico/gal_tele/gal_tele_small.jpg");
+		background-size: cover;}
 }
