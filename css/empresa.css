@@ -15,12 +15,15 @@
 .menu_content_empresa_small .temas{
 	width: 70px;
 	height: 70px;
+	padding: 5px;
 	margin: auto auto 20% auto;
-	background: none;
+	border-radius: 10px;
+	background: grey;
 	text-align: center;
 	font-family: "Lato";
-	font-size: 1.1em;}
-.menu_content_empresa_small .temas i{font-size: 3em;}
+	font-size: 1.1em;
+	color: white;}
+.menu_content_empresa_small .temas i{font-size: 2.7em;}
 
 .content_tema_empresa_small{
 	display: none;
